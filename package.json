@@ -1,19 +1,16 @@
 {
-  "name": "xlsx-import",
-  "version": "2.1.0",
+  "name": "ts-package-structure",
+  "version": "1.0.0",
   "license": "MIT",
-  "description": "Import data from xlsx file using configured pattern",
-  "main": "xlsx-import/lib/ImporterFactory.js",
-  "types": "xlsx-import/lib/ImporterFactory.d.ts",
+  "description": "todo sample description",
+  "main": "ts-package-structure/lib/Index.js",
+  "types": "ts-package-structure/lib/Index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Siemienik/xlsx-importer"
+    "url": "git+https://github.com/Siemienik/ts-package-structure"
   },
   "keywords": [
-    "Importing data",
-    "Excel",
-    "XLSX",
-    "ExcelJs"
+    "jestem-leniem"
   ],
   "author": "Paweł Siemienik <siemienik.pawel@gmail.com>",
   "scripts": {
@@ -40,7 +37,6 @@
     "typescript": "^3.4.4"
   },
   "dependencies": {
-    "exceljs": "^3.5.0"
   },
   "files": [
     "lib/**/*"
